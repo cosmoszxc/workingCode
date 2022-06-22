@@ -1,0 +1,5 @@
+num = int(input())
+one = num // 1000
+two = (num // 100) % 10
+three = int((num / 10) % 10)
+four = (num % 100) % 10
